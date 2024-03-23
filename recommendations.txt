@@ -1,0 +1,8 @@
+pyautogui
+webbrowser
+pyttsx3
+wikipedia
+speech_recognition
+requests
+beautifulsoup4
+pywhatkit
