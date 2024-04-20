@@ -7,7 +7,7 @@ from time import sleep
 engine = pyttsx3.init("sapi5")
 voices = engine.getProperty("voices")
 engine.setProperty("voice", voices[1].id)
-engine.setProperty("rate",180)
+engine.setProperty("rate",200)
 
 def speak(audio):
     engine.say(audio)
@@ -19,7 +19,7 @@ def openappweb(query):
     speak("Launching, sir")
     if ".com" in query or ".co.in" in query or ".org" in query:
         query = query.replace("open","")
-        query = query.replace("jarvis","")
+        query = query.replace("Mickey","")
         query = query.replace("launch","")
         query = query.replace(" ","")
         webbrowser.open(f"https://www.{query}")
