@@ -1,70 +1,57 @@
+<h1 align="center">Vicoe - Your Personal Voice Assistant</h1>
 
-```markdown
-# VICOE Voice Assistant 🎙️💻
+<p align="center">
+  <img src="https://img.shields.io/github/license/jayeshpandey01/voice-assistant?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/stars/jayeshpandey01/voice-assistant?style=flat-square" alt="Stars">
+  <img src="https://img.shields.io/github/forks/jayeshpandey01/voice-assistant?style=flat-square" alt="Forks">
+</p>
 
-Welcome to VICOE Voice Assistant! This project is a versatile voice assistant developed as a project-based learning initiative during my college journey. It's designed to streamline daily tasks and enhance user interaction with the computer.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/yourimage.jpg" alt="Vicoe Assistant Demo" width="600">
+</p>
 
-![VICOE Voice Assistant](https://github.com/jayeshpandey01/voice-assistant/blob/main/voice_assistant_demo.gif)
+## Introduction
 
-## Key Features
+Vicoe is a powerful voice assistant that can revolutionize the way you interact with your computer! Developed as a project during college, Vicoe is equipped with a range of features, from simple greetings and reminders to advanced tasks like retrieving IPL scores and managing distractions with Focus Mode.
 
-- **Natural Language Interaction:** Have conversations with your computer, including greetings and small talk.
-- **Task Automation:** Perform various tasks such as adjusting volume, setting alarms, reminders, and shutting down the system.
-- **Utility Functions:** Access inbuilt software like calculator and calendar, search the web, retrieve IPL scores, translate content, and more.
-- **Entertainment:** Play games, listen to mood-based music, and even search and play YouTube videos.
-- **Messaging:** Send WhatsApp messages and handle password inputs securely.
+## Features
 
-## Modules Used
-
-- `pyautogui`
-- `webbrowser`
-- `pyttsx3`
-- `wikipedia`
-- `speech_recognition`
-- `requests`
-- `beautifulsoup4`
-- `pywhatkit`
-- `datetime`
-- `wolframalpha`
-- `matplotlib.pyplot`
-- `ctypes`
-- `sys`
-- `tkinter`
-- `Pillow`
-- `pygame`
-- `pynput.keyboard`
-- `fnmatch`
-- `googletrans`
-- `gTTS`
-- `playsound`
+- **Natural Language Interaction**: Communicate with your computer in a natural and intuitive way.
+- **Multi-tasking Abilities**: Perform various tasks like setting alarms, searching the web, and more, all with voice commands.
+- **Enhanced Productivity**: Stay focused with the Focus Mode, manage notifications, and even play games with your assistant.
+- **Customizable and Extendable**: Add new functionalities easily by leveraging the wide range of modules used in its development.
 
 ## Demo
 
-Check out the demo of VICOE Voice Assistant in action:
+![Demo Gif](https://user-images.githubusercontent.com/yourdemogif.gif)
 
-![Demo](https://github.com/jayeshpandey01/voice-assistant/blob/main/voice_assistant_demo.gif)
+## Installation
 
-## Usage
-
-To get started, simply clone the repository and run the main Python file:
+To get started with Vicoe, simply clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/jayeshpandey01/voice-assistant.git
 cd voice-assistant
-python main.py
-```
+pip install -r requirements.txt
 
-## Contribution
+Usage
+Run the Mickey.py file.
+Speak your command when prompted.
+Enjoy the seamless interaction with Vicoe!
+Technologies Used
+Python
+pyautogui
+webbrowser
+pyttsx3
+wikipedia
+speech_recognition
+requests
+BeautifulSoup
+and more!
 
-Contributions are welcome! Feel free to fork the repository, make improvements, and submit pull requests.
 
-## License
+Contributing
+Contributions are welcome! Please feel free to fork the repository and submit pull requests to contribute new features, improve existing code, or fix bugs.
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/jayeshpandey01/voice-assistant/blob/main/LICENSE) file for details.
-
----
-
-Ready to experience the convenience and fun of VICOE Voice Assistant? Clone the repository and let your computer become your assistant today! 🚀
-```
-
-Feel free to customize it further with additional details, screenshots, or any other elements you think would make it more attractive and informative!
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
