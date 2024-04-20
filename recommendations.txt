@@ -6,3 +6,18 @@ speech_recognition
 requests
 beautifulsoup4
 pywhatkit
+datetime
+wolframalpha
+pyautogui
+import pyttsx3
+matplotlib.pyplot
+ctypes,sys
+tkinter
+Pillow
+pygame
+pynput.keyboard
+fnmatch
+googletrans
+gTTS
+playsound 
+BeautifulSoup
