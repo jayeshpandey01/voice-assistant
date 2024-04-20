@@ -1,57 +1,56 @@
-<h1 align="center">Vicoe - Your Personal Voice Assistant</h1>
+# VICOE (Versatile Interactive Computerized Organizational Entity)
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/jayeshpandey01/voice-assistant?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/stars/jayeshpandey01/voice-assistant?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/forks/jayeshpandey01/voice-assistant?style=flat-square" alt="Forks">
-</p>
+[![GitHub stars](https://img.shields.io/github/stars/jayeshpandey01/voice-assistant.svg?style=social)](https://github.com/jayeshpandey01/voice-assistant/stargazers)
+[![GitHub license](https://img.shields.io/github/license/jayeshpandey01/voice-assistant)](https://github.com/jayeshpandey01/voice-assistant/blob/main/LICENSE)
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/yourimage.jpg" alt="Vicoe Assistant Demo" width="600">
-</p>
-
-## Introduction
-
-Vicoe is a powerful voice assistant that can revolutionize the way you interact with your computer! Developed as a project during college, Vicoe is equipped with a range of features, from simple greetings and reminders to advanced tasks like retrieving IPL scores and managing distractions with Focus Mode.
+VICOE is your personal assistant, designed to simplify your digital life with voice commands. Whether you need to set reminders, check the IPL scores, or simply play your favorite song, VICOE has got you covered!
 
 ## Features
 
-- **Natural Language Interaction**: Communicate with your computer in a natural and intuitive way.
-- **Multi-tasking Abilities**: Perform various tasks like setting alarms, searching the web, and more, all with voice commands.
-- **Enhanced Productivity**: Stay focused with the Focus Mode, manage notifications, and even play games with your assistant.
-- **Customizable and Extendable**: Add new functionalities easily by leveraging the wide range of modules used in its development.
+- **Natural Language Interaction**: Engage in conversations with VICOE for greetings, small talk, and more.
+- **Productivity Tools**: Set alarms, reminders, open inbuilt software, and manage distractions with focus mode.
+- **Web Interactions**: Search websites, retrieve specific information, and perform basic translations seamlessly.
+- **Entertainment**: Play games, find mood-based music, and even search and play YouTube videos.
+- **Communication**: Send WhatsApp messages with ease and secure your device with password changes.
 
-## Demo
+## Modules Used
 
-![Demo Gif](https://user-images.githubusercontent.com/yourdemogif.gif)
+VICOE harnesses the power of various Python modules to provide a seamless user experience:
 
-## Installation
+- `pyautogui`
+- `webbrowser`
+- `pyttsx3`
+- `wikipedia`
+- `speech_recognition`
+- `requests`
+- `beautifulsoup4`
+- `pywhatkit`
+- `datetime`
+- `wolframalpha`
+- `matplotlib.pyplot`
+- `ctypes`
+- `tkinter`
+- `Pillow`
+- `pygame`
+- `pynput.keyboard`
+- `fnmatch`
+- `googletrans`
+- `gTTS`
+- `playsound`
+- `BeautifulSoup`
 
-To get started with Vicoe, simply clone the repository and install the required dependencies:
+## Getting Started
+
+To start using VICOE, simply clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/jayeshpandey01/voice-assistant.git
 cd voice-assistant
 pip install -r requirements.txt
-
-Usage
-Run the Mickey.py file.
-Speak your command when prompted.
-Enjoy the seamless interaction with Vicoe!
-Technologies Used
-Python
-pyautogui
-webbrowser
-pyttsx3
-wikipedia
-speech_recognition
-requests
-BeautifulSoup
-and more!
+python Mickey.py
 
 
-Contributing
-Contributions are welcome! Please feel free to fork the repository and submit pull requests to contribute new features, improve existing code, or fix bugs.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+Feel free to customize the content further to better reflect your project's unique features and style. Adding screenshots or GIFs demonstrating the assistant in action could also enhance its attractiveness.
+
